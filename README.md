@@ -1,4 +1,4 @@
 # Git
 Simple git starter
 
-git-scm.com/downloads
+https://git-scm.com/downloads
