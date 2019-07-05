@@ -45,13 +45,13 @@ $ git branch
 $ git checkout new_feature
   
 ### Modify a file:
-$ echo “Hi” > test_file.txt
+$ echo Hello > test_file.txt
 
 ### Stage the file:
 $ git add .
 
 ### Commit changes:
-$ git commit -m “chhnged again"
+$ git commit -m “changed again"
 
 ### Print file content:
 $ type test_file.txt
@@ -63,7 +63,7 @@ $ git checkout master
 $ type test_file.txt
 
 ### Modify the file (again) this time in master:
-$ echo “Hi” > test_file.txt
+$ echo Hi > test_file.txt
 
 ### Stage the file:
 $ git add .
