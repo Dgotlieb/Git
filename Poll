@@ -1,1 +1,11 @@
-
+pipeline {
+agent any
+    stages {
+        stage('checkout') {
+            steps {
+                git 'https://github.com/<USER_NAME>/<PROJECT_NAME>.git'
+            }}
+        stage('build') {
+            steps {
+                bat 'python <PYTHON FILE>.py'
+            }}}}
