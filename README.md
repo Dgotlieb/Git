@@ -65,8 +65,11 @@ $ type test_file.txt
 ### Modify the file (again) this time in master:
 $ echo “Hi” > test_file.txt
 
+### Stage the file:
+$ git add .
+
 ### Commit changes (again) this time in master:
-$ git commit -m “chhnged again"
+$ git commit -m “changed again"
 
 ### Try to merge changes
 $ git merge new_feature
