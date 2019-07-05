@@ -33,4 +33,61 @@ $ git add test_file.txt
 ### Commit the file to the repository
 $ git commit -m "Add my first file"
 
-CONTINUE FROM SLIDE 10
+--------------------------------------------------
+
+### Create a branch:
+$ git branch new_feature
+
+### Get a list of all branches:
+$ git branch
+
+### Switch into another branch:
+$ git checkout <branch name>
+  
+### Modify a file:
+$ echo “Hi” >> test_file.txt
+
+### Stage the file:
+$ Git add .
+
+### Commit changes:
+$ git commit -m “chhnged again"
+
+### Print file content:
+$ type test_file.txt
+
+### Checkout to master:
+$ git checkout master
+
+### Print file content (again):
+$ type test_file.txt
+
+### Modify the file (again) this time in master:
+$ echo “Hi” >> test_file.txt
+
+### Commit changes (again) this time in master:
+$ git commit -m “chhnged again"
+
+### Try to merge changes
+$ git merge new_feature
+
+### Add and commit changes after conflict fix
+git commit -a -m “fixed conflicts"
+
+--------------------------------------------------
+
+### See commits history
+$ git log
+
+### Jump into a commit
+$ git checkout <commit hash>
+  
+--------------------------------------------------
+
+### Revert a commit
+$ git revert <commit hash>
+
+
+
+
+
