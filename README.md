@@ -75,7 +75,7 @@ $ git commit -m “changed again"
 $ git merge new_feature
 
 ### Add and commit changes after conflict fix
-git commit -a -m “fixed conflicts"
+$ git commit -a -m “fixed conflicts"
 
 --------------------------------------------------
 
