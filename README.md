@@ -48,7 +48,7 @@ $ git checkout new_feature
 $ echo “Hi” >> test_file.txt
 
 ### Stage the file:
-$ Git add .
+$ git add .
 
 ### Commit changes:
 $ git commit -m “chhnged again"
