@@ -42,7 +42,7 @@ $ git branch new_feature
 $ git branch
 
 ### Switch into another branch:
-$ git checkout <branch name>
+$ git checkout new_feature
   
 ### Modify a file:
 $ echo “Hi” >> test_file.txt
